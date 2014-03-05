@@ -1,0 +1,21 @@
+# ignore paths
+
+*.sw[aopnm]
+*~
+*.~lock*
+*.orig
+*.rej
+*.DS_Store
+*.directory
+app/config/parameters.yml
+app/config/local.yml
+app/cache/*
+app/logs/*
+
+!.gitignore
+!.gitkeep
+
+web/bundles/*
+web/compiled
+composer.lock
+vendor
