@@ -1,17 +1,34 @@
 ({
-    appDir: "./app",
-    baseUrl: ".",
-    //mainConfigFile: "config.js",
+    appDir: ".",
+    baseUrl: "./app",
+    mainConfigFile: "config.js",
 //    dir: "../../js/build/",
-    dir: "../app-build",
+    dir: "../dist",
     optimize: "uglify2",
+    removeCombined: true,
+    paths:{
+        almond:'../../lib/almond/almond',
+        requirejs:'../../lib/requirejs/require'
+    },
     modules: [
+        //{
+            //name: "../init",
+            //include:[
+                ////'jquery',
+                ////'marionette',
+                ////'main',
+                ////'almond'
+                //'requirejs'
+            //]
+        //},
         {
-            name: "initz",
+            name: "almond",
             include:[
-                'jquery',
-                'marionette',
-                'init',
+                //'jquery',
+                //'marionette',
+                //'main',
+                //'almond'
+                '../init'
             ]
         }
     ],

@@ -1,4 +1,4 @@
-require(['./config'],function(){
+require(['./config','main'],function(){
     require(['main']);
 });
 

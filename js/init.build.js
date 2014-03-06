@@ -2,7 +2,11 @@
     baseUrl: "./app",
     mainConfigFile: "config.js",
     optimize: "uglify2",
-    include:['../init','main'],
-    out: "build/app.js"
+    paths:{
+        almond:'../../lib/almond/almond',
+        requirejs:'../../lib/requirejs/require'
+    },
+    include:['almond','../init'],
+    out: "../dist/app.js"
 })
 
