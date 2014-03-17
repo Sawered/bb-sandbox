@@ -1,11 +1,14 @@
 // Start the main app logic.
-require([
-        'jquery','marionette'
+define([
+        'jquery','marionette','application'
 ],
 function(
-$,Marionette
+$,Marionette,application
 ) {
-
-    var app = new Marionette.Application({});
     console.log('Main loaded');
+
+    //var app = new Marionette.Application({});
+    application.start();
+    //console.log(application);
 });
+//console.log('main file loaded');

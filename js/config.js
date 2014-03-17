@@ -16,4 +16,4 @@ requirejs.config({
     shim : {
     }
 });
-
+//console.log('Config loaded');
