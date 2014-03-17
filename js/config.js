@@ -2,6 +2,9 @@
 requirejs.config({
     baseUrl: 'js/app',
     paths: {
+        'twigjs': '../../lib/requirejs.twig/requirejs.twig',
+        'text': '../../lib/requirejs-plugins/lib/text',
+        'twig':'../../lib/twig.js/twig',
         "jquery": "../../lib/jquery/dist/jquery.min",
         backbone : '../../lib/backbone/backbone',
         underscore : '../../lib/underscore/underscore',
