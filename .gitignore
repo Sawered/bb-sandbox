@@ -19,3 +19,4 @@ web/bundles/*
 web/compiled
 composer.lock
 vendor
+dist
