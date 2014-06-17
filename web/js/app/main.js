@@ -1,5 +1,5 @@
 define([
-        'jquery','marionette','application'
+        'jquery','marionette','app/application'
 ],
 function(
 $,Marionette,application

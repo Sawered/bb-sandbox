@@ -1,10 +1,15 @@
 // Start the main app logic.
 define([
-       'marionette','backbone','mainLayout',
-       'itemView'
+       'marionette',
+       'backbone',
+       'app/mainLayout',
+       'app/itemView'
 ],
 function(
-Marionette,Backbone,Layout,ItemView
+        Marionette,
+        Backbone,
+        Layout,
+        ItemView
 ) {
 
     var app = new Marionette.Application({});

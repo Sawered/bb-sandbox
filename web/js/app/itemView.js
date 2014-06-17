@@ -1,5 +1,5 @@
 define([
-       'marionette','twigjs!templates/item_view.html'
+       'marionette','twigjs!app/templates/item_view.html'
 ],
 function(
 Marionette,template
