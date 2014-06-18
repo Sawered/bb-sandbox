@@ -15,7 +15,9 @@ app/logs/*
 !.gitignore
 !.gitkeep
 
-web/bundles/*
+web/js/build/*
+
+#web/bundles/*
 web/compiled
 composer.lock
 vendor
