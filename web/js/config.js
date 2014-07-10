@@ -2,6 +2,7 @@
 requirejs.config({
     baseUrl: 'js',
     paths: {
+        'firstbundle':'app/firstbundle',
         'twigjs': 'app/lib/bower/requirejs.twig/requirejs.twig',
         'text': 'app/lib/bower/requirejs-plugins/lib/text',
         'twig':'app/lib/bower/twig.js/twig',
@@ -11,7 +12,7 @@ requirejs.config({
         //'backbone.eventbinder' : '../../lib/backbone.eventbinder/lib/amd/backbone.eventbinder',
         //'backbone.localstorage': '../../lib/backbone.localstorage/backbone.localStorage',
         'backbone.wreqr' : 'app/lib/bower/backbone.wreqr/lib/amd/backbone.wreqr',
-        'backbone.babysitter' : 'app/lib/bower/backbone.babysitter/lib/amd/backbone.babysitter',
+        'backbone.babysitter' : 'app/lib/bower/backbone.babysitter/lib/backbone.babysitter',
         marionette : 'app/lib/bower/marionette/lib/core/amd/backbone.marionette'
 
 

@@ -9,7 +9,8 @@ Marionette,template
         'template': template ,
         'regions': {
             'firstRegion':'.first-region',
-            'secondRegion':'.second-region'
+            'secondRegion':'.second-region',
+            'bundleRegion':'.bundle-region'
         }
 
     });

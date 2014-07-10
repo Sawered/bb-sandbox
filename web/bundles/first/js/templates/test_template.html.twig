@@ -1,0 +1,7 @@
+{%block asd%}
+{%for i in nums%}
+<button>Check {{i}}{%if(loop.last)%} last{%endif%}</button>
+{%endfor%}
+{%endblock%}
+
+{{block('asd')}}
